@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="264" viewBox="0 0 720 264" role="img" aria-label="Terminal: whoami — Kashish Bhatnagar, AI-native Product Manager">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14122b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#10b981"/>
+    </linearGradient>
+    <!-- one clip per line; widths animate on a shared 16s loop -->
+    <clipPath id="c1"><rect x="0" y="0" height="264" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;260;260" keyTimes="0;0.02;0.08;1"/></rect></clipPath>
+    <clipPath id="c2"><rect x="0" y="0" height="264" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;720;720" keyTimes="0;0.10;0.11;1"/></rect></clipPath>
+    <clipPath id="c3"><rect x="0" y="0" height="264" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;300;300" keyTimes="0;0.16;0.23;1"/></rect></clipPath>
+    <clipPath id="c4"><rect x="0" y="0" height="264" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;720;720" keyTimes="0;0.25;0.26;1"/></rect></clipPath>
+    <clipPath id="c5"><rect x="0" y="0" height="264" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;720;720" keyTimes="0;0.27;0.28;1"/></rect></clipPath>
+    <clipPath id="c6"><rect x="0" y="0" height="264" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;520;520" keyTimes="0;0.34;0.46;1"/></rect></clipPath>
+    <clipPath id="c7"><rect x="0" y="0" height="264" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" values="0;0;720;720" keyTimes="0;0.52;0.53;1"/></rect></clipPath>
+  </defs>
+  <style>
+    .t { font: 15px 'SFMono-Regular', ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace; fill: #e2e8f0; }
+    .p { fill: #a78bfa; } .k { fill: #34d399; } .d { fill: #94a3b8; } .y { fill: #fbbf24; } .b { fill: #818cf8; }
+    .cur { fill: #a78bfa; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <rect x="1" y="1" width="718" height="262" rx="14" fill="url(#bg)" stroke="url(#edge)" stroke-width="2"/>
+  <circle cx="26" cy="24" r="6" fill="#ef4444"/>
+  <circle cx="46" cy="24" r="6" fill="#f59e0b"/>
+  <circle cx="66" cy="24" r="6" fill="#22c55e"/>
+  <text x="360" y="29" text-anchor="middle" class="t d" style="font-size:12px">kashish@product ~ zsh</text>
+
+  <g clip-path="url(#c1)"><text x="24" y="70" class="t"><tspan class="p">$ </tspan>whoami</text></g>
+  <g clip-path="url(#c2)"><text x="24" y="94" class="t"><tspan class="k">→ </tspan>Kashish Bhatnagar <tspan class="d">·</tspan> <tspan class="b">AI-native Product Manager</tspan></text></g>
+
+  <g clip-path="url(#c3)"><text x="24" y="130" class="t"><tspan class="p">$ </tspan>cat focus.txt</text></g>
+  <g clip-path="url(#c4)"><text x="24" y="154" class="t"><tspan class="k">→ </tspan>LLM orchestration · agentic workflows · RAG/CAG · MCP</text></g>
+  <g clip-path="url(#c5)"><text x="24" y="176" class="t"><tspan class="k">→ </tspan>ROI-first roadmaps · PRDs that non-coders can build from</text></g>
+
+  <g clip-path="url(#c6)"><text x="24" y="212" class="t"><tspan class="p">$ </tspan>ship --idea=zero-to-one --metric=ROI</text></g>
+  <g clip-path="url(#c7)"><text x="24" y="236" class="t"><tspan class="y">✔ </tspan>shipped. impact measured. <tspan class="d">next idea loading</tspan><tspan class="cur">▋</tspan></text></g>
+</svg>
