@@ -101,10 +101,6 @@
   <img height="165" src="https://streak-stats.demolab.com?user=BhatnagarKashish&hide_border=true&background=0d1117&ring=7c3aed&fire=10b981&currStreakLabel=a78bfa&sideLabels=a78bfa&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e&stroke=30363d" alt="GitHub streak"/>
 </p>
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=BhatnagarKashish&bg_color=0d1117&color=a78bfa&line=7c3aed&point=34d399&area=true&area_color=7c3aed&hide_border=true&custom_title=Contribution%20activity" alt="Activity graph"/>
-</p>
-
 ## 🐍 Eating My Contributions
 
 <p align="center">
@@ -118,6 +114,7 @@
 ## 🤝 Let's Build Something
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/kashish-bhatnagar-60107884/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://github.com/BhatnagarKashish?tab=repositories"><img src="https://img.shields.io/badge/Projects-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/></a>
 </p>
 
