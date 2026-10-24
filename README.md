@@ -37,7 +37,7 @@ I'm an AI Product Manager at **HashedIn by Deloitte**, building enterprise platf
 <br>
 
 <!-- Solving Amazon Choice Overload: add details below (Problem · What I did · Outcome · Link) -->
-> Details coming soon.
+>resolve the pain points
 
 </details>
     </td>
