@@ -17,96 +17,28 @@ I'm an AI Product Manager at **HashedIn by Deloitte**, building enterprise platf
 
 ## Product Work & Case Studies
 
-<p>Click a card to expand the details.</p>
+<p>Click any card to open the full write-up, presentations and documents.</p>
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-<details>
-<summary><img src="assets/work/whatsapp-payments.svg" width="100%" alt="WhatsApp Payments — click to view details"/></summary>
-<br>
-
-<!-- WhatsApp Payments: add details below (Problem · What I did · Outcome · Link) -->
-> Details coming soon.
-
-</details>
-    </td>
-    <td width="50%" valign="top">
-<details>
-<summary><img src="assets/work/amazon-choice-overload.svg" width="100%" alt="Solving Amazon Choice Overload — click to view details"/></summary>
-<br>
-
-<!-- Solving Amazon Choice Overload: add details below (Problem · What I did · Outcome · Link) -->
->resolve the pain points
-
-</details>
-    </td>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/Sales-Intelligence-Platform"><img src="assets/work/sales-intelligence-platform.svg?v=3" width="100%" alt="Sales Intelligence Platform — open project"/></a></td>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/Python-Project"><img src="assets/work/python-project.svg?v=3" width="100%" alt="Python Project — open project"/></a></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-<details>
-<summary><img src="assets/work/meesho-feature-analysis.svg" width="100%" alt="Meesho Product Feature Analysis — click to view details"/></summary>
-<br>
-
-<!-- Meesho Product Feature Analysis: add details below (Problem · What I did · Outcome · Link) -->
-> Details coming soon.
-
-</details>
-    </td>
-    <td width="50%" valign="top">
-<details>
-<summary><img src="assets/work/blinkit-product-analysis.svg" width="100%" alt="Blinkit Product Analysis — click to view details"/></summary>
-<br>
-
-<!-- Blinkit Product Analysis: add details below (Problem · What I did · Outcome · Link) -->
-> Details coming soon.
-
-</details>
-    </td>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/whatsapp-payments"><img src="assets/work/whatsapp-payments.svg?v=3" width="100%" alt="WhatsApp Payments — open project"/></a></td>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/amazon-choice-overload"><img src="assets/work/amazon-choice-overload.svg?v=3" width="100%" alt="Solving Amazon Choice Overload — open project"/></a></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-<details>
-<summary><img src="assets/work/loyalty.svg" width="100%" alt="Loyalty — click to view details"/></summary>
-<br>
-
-<!-- Loyalty: add details below (Problem · What I did · Outcome · Link) -->
-> Details coming soon.
-
-</details>
-    </td>
-    <td width="50%" valign="top">
-<details>
-<summary><img src="assets/work/payments.svg" width="100%" alt="Payments — click to view details"/></summary>
-<br>
-
-<!-- Payments: add details below (Problem · What I did · Outcome · Link) -->
-> Details coming soon.
-
-</details>
-    </td>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/Meesho-Product-Feature-Analysis"><img src="assets/work/meesho-feature-analysis.svg?v=3" width="100%" alt="Meesho Product Feature Analysis — open project"/></a></td>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/blinkit-product-analysis"><img src="assets/work/blinkit-product-analysis.svg?v=3" width="100%" alt="Blinkit Product Analysis — open project"/></a></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-<details>
-<summary><img src="assets/work/aws-key-learnings.svg" width="100%" alt="AWS Key Learnings — click to view details"/></summary>
-<br>
-
-<!-- AWS Key Learnings: add details below (Problem · What I did · Outcome · Link) -->
-> Details coming soon.
-
-</details>
-    </td>
-    <td width="50%" valign="top">
-<details>
-<summary><img src="assets/work/technical-product-learnings.svg" width="100%" alt="Technical Product Learnings — click to view details"/></summary>
-<br>
-
-<!-- Technical Product Learnings: add details below (Problem · What I did · Outcome · Link) -->
-> Details coming soon.
-
-</details>
-    </td>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/loyalty"><img src="assets/work/loyalty.svg?v=3" width="100%" alt="Loyalty — open project"/></a></td>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/payments"><img src="assets/work/payments.svg?v=3" width="100%" alt="Payments — open project"/></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/aws-key-learnings"><img src="assets/work/aws-key-learnings.svg?v=3" width="100%" alt="AWS Key Learnings — open project"/></a></td>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/technical-product-learnings"><img src="assets/work/technical-product-learnings.svg?v=3" width="100%" alt="Technical Product Learnings — open project"/></a></td>
   </tr>
 </table>
 
