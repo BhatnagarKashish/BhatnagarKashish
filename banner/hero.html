@@ -1,0 +1,100 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;background:#0d1117}
+  canvas{display:block}
+</style></head>
+<body><canvas id="c" width="1280" height="400"></canvas>
+<script>
+const W = 1280, H = 400, LOOP = 6.0;           // seconds per seamless loop
+const c = document.getElementById('c'), x = c.getContext('2d');
+
+const KEYWORDS = ['AI Product Strategy','GenAI & Agentic Workflows','Prompt Engineering','Stakeholder Management','Agile Delivery'];
+
+// deterministic pseudo-random
+let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+
+// network nodes in the right panel
+const nodes = [];
+const layers = [3, 5, 5, 3];
+layers.forEach((n, li) => {
+  for (let i = 0; i < n; i++) {
+    nodes.push({ l: li, x: 880 + li * 112 + (rnd() - .5) * 18, y: 200 + (i - (n - 1) / 2) * 62 + (rnd() - .5) * 14 });
+  }
+});
+const edges = [];
+for (const a of nodes) for (const b of nodes) if (b.l === a.l + 1 && rnd() > .25) edges.push([a, b, rnd()]);
+
+function rr(px, py, w, h, r) { x.beginPath(); x.roundRect(px, py, w, h, r); }
+
+function draw(t) {                // t in [0, LOOP)
+  const p = t / LOOP;
+  // background
+  x.fillStyle = '#0d1117'; x.fillRect(0, 0, W, H);
+  const g = x.createRadialGradient(1010, 200, 10, 1010, 200, 420);
+  g.addColorStop(0, 'rgba(99,102,241,0.16)'); g.addColorStop(1, 'rgba(13,17,23,0)');
+  x.fillStyle = g; x.fillRect(0, 0, W, H);
+  // dot grid
+  x.fillStyle = 'rgba(148,163,184,0.10)';
+  for (let gx = 20; gx < W; gx += 28) for (let gy = 20; gy < H; gy += 28) x.fillRect(gx, gy, 1.5, 1.5);
+  // left accent bar
+  x.fillStyle = '#6366f1'; x.fillRect(72, 92, 3, 128);
+
+  // ---- text block ----
+  x.textBaseline = 'alphabetic';
+  x.fillStyle = '#8b949e'; x.font = '500 20px Inter';
+  x.fillText('Hi, I am', 100, 118);
+  x.fillStyle = '#f0f6fc'; x.font = '700 64px "Inter Display", Inter';
+  x.fillText('Kashish Bhatnagar', 98, 186);
+  x.font = '500 22px Inter';
+  const parts = [['AI Product Manager', '#a5b4fc'], ['  ·  ', '#484f58'], ['Enterprise Platforms', '#c9d1d9'], ['  ·  ', '#484f58'], ['Loyalty & Insurance', '#c9d1d9']];
+  let tx = 100;
+  for (const [s, col] of parts) { x.fillStyle = col; x.fillText(s, tx, 222); tx += x.measureText(s).width; }
+
+  // ---- keyword chips, one highlighted at a time ----
+  const active = Math.floor(p * KEYWORDS.length) % KEYWORDS.length;
+  const local = (p * KEYWORDS.length) % 1;                       // 0..1 within slot
+  const glow = Math.sin(Math.min(1, local / 0.25) * Math.PI / 2) * (local > 0.85 ? (1 - local) / 0.15 : 1);
+  x.font = '600 15px Inter';
+  let cx = 100, cy = 262, rowH = 40;
+  KEYWORDS.forEach((k, i) => {
+    const w = x.measureText(k).width + 32;
+    if (cx + w > 800) { cx = 100; cy += rowH + 10; }
+    const on = i === active ? glow : 0;
+    rr(cx, cy, w, rowH, 8);
+    x.fillStyle = `rgba(99,102,241,${0.10 + on * 0.22})`; x.fill();
+    x.lineWidth = 1; x.strokeStyle = `rgba(129,140,248,${0.35 + on * 0.6})`; x.stroke();
+    if (on > 0) { x.save(); x.shadowColor = 'rgba(129,140,248,0.8)'; x.shadowBlur = 16 * on; x.stroke(); x.restore(); }
+    x.fillStyle = on > 0.3 ? '#ffffff' : '#c9d1d9';
+    x.fillText(k, cx + 16, cy + 26);
+    cx += w + 10;
+  });
+
+  // ---- network ----
+  for (const [a, b] of edges) {
+    x.strokeStyle = 'rgba(139,148,158,0.18)'; x.lineWidth = 1;
+    x.beginPath(); x.moveTo(a.x, a.y); x.lineTo(b.x, b.y); x.stroke();
+  }
+  // signal pulses: travel layer by layer once per keyword slot
+  const slot = local;                                   // 0..1
+  for (const [a, b, o] of edges) {
+    const start = a.l * 0.22, seg = 0.22;
+    let q = (slot - start - o * 0.05) / seg;
+    if (q < 0 || q > 1) continue;
+    const px = a.x + (b.x - a.x) * q, py = a.y + (b.y - a.y) * q;
+    const col = (a.l + active) % 2 ? '52,211,153' : '129,140,248';
+    const gr = x.createRadialGradient(px, py, 0, px, py, 9);
+    gr.addColorStop(0, `rgba(${col},0.95)`); gr.addColorStop(1, `rgba(${col},0)`);
+    x.fillStyle = gr; x.beginPath(); x.arc(px, py, 9, 0, 7); x.fill();
+  }
+  for (const n of nodes) {
+    const hit = Math.max(0, 1 - Math.abs(slot - (n.l * 0.22 + 0.02)) / 0.12);
+    x.beginPath(); x.arc(n.x, n.y, 7, 0, 7);
+    x.fillStyle = '#161b22'; x.fill();
+    x.lineWidth = 2; x.strokeStyle = `rgba(129,140,248,${0.45 + hit * 0.55})`; x.stroke();
+    if (hit > 0) { x.beginPath(); x.arc(n.x, n.y, 3.5, 0, 7); x.fillStyle = `rgba(52,211,153,${hit})`; x.fill(); }
+  }
+}
+window.draw = draw;
+document.fonts.load('700 64px "Inter Display"').then(() => document.fonts.load('600 15px Inter')).then(() => { draw(0); window.ready = true; });
+</script></body></html>
