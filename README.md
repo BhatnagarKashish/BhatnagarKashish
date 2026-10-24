@@ -129,31 +129,3 @@ I'm an AI Product Manager at **HashedIn by Deloitte**, building enterprise platf
   <img src="https://img.shields.io/badge/ClickUp-7B68EE?style=flat-square&logo=clickup&logoColor=white" alt="ClickUp"/>
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/>
 </p>
-
-## 📊 GitHub Pulse
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=BhatnagarKashish&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=34d399&text_color=c9d1d9&rank_icon=github" alt="GitHub stats"/>
-  <img height="165" src="https://streak-stats.demolab.com?user=BhatnagarKashish&hide_border=true&background=0d1117&ring=7c3aed&fire=10b981&currStreakLabel=a78bfa&sideLabels=a78bfa&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e&stroke=30363d" alt="GitHub streak"/>
-</p>
-
-## 🐍 Eating My Contributions
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BhatnagarKashish/BhatnagarKashish/output/github-contribution-grid-snake-dark.gif"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BhatnagarKashish/BhatnagarKashish/output/github-contribution-grid-snake.gif"/>
-    <img src="https://raw.githubusercontent.com/BhatnagarKashish/BhatnagarKashish/output/github-contribution-grid-snake.gif" alt="Snake eating my contribution graph"/>
-  </picture>
-</p>
-
-## 🤝 Let's Build Something
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/kashish-bhatnagar-60107884/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://github.com/BhatnagarKashish?tab=repositories"><img src="https://img.shields.io/badge/Projects-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/></a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:10b981,50:7c3aed,100:4f46e5" width="100%" alt=""/>
-</p>
