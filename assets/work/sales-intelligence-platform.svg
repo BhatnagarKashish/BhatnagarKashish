@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="150" viewBox="0 0 440 150" role="img" aria-label="Sales Intelligence Platform — Lead capture with next-action notifications">
+<defs><linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8" stop-opacity="0"/><stop offset="0.5" stop-color="#38bdf8" stop-opacity="0.9"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient>
+<clipPath id="r"><rect x="0.5" y="0.5" width="439" height="149" rx="12"/></clipPath></defs>
+<style>.f{font-family:Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}.num{font:600 13px ui-monospace,Menlo,Consolas,monospace;fill:#6e7681}</style>
+<g clip-path="url(#r)"><rect width="440" height="150" fill="#0d1117"/><rect width="440" height="150" fill="#38bdf8" opacity="0.05"/><rect width="440" height="2" fill="#38bdf8" opacity="0.35"/>
+<rect x="-160" y="0" width="160" height="2" fill="url(#sweep)"><animate attributeName="x" values="-160;440;440" keyTimes="0;0.45;1" dur="5s" repeatCount="indefinite"/></rect></g>
+<rect x="0.5" y="0.5" width="439" height="149" rx="12" fill="none" stroke="#30363d"/>
+<rect x="22" y="22" width="72" height="22" rx="11" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.45"/>
+<text x="58" y="37" text-anchor="middle" class="f" font-size="10.5" font-weight="700" letter-spacing="1" fill="#38bdf8">PROJECT</text>
+<text x="418" y="38" text-anchor="end" class="num">01</text>
+<text x="22" y="82" class="f" font-size="21" font-weight="700" fill="#f0f6fc">Sales Intelligence Platform</text>
+<text x="22" y="106" class="f" font-size="14" fill="#8b949e">Lead capture with next-action notifications</text>
+<text x="22" y="132" class="f" font-size="12.5" font-weight="600" fill="#38bdf8">Open project</text>
+<path d="M107 128 h10 m-4 -4 l4 4 l-4 4" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><animateTransform attributeName="transform" type="translate" values="0 0;3 0;0 0" dur="1.8s" repeatCount="indefinite"/></path>
+</svg>
