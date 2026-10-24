@@ -15,43 +15,97 @@
 
 I'm an AI Product Manager at **HashedIn by Deloitte**, building enterprise platforms for **Consumer Loyalty** and **Insurance**. I own products from discovery to launch: framing problems with business stakeholders, writing clear PRDs, and running Agile delivery with design and engineering. My current focus is bringing GenAI into these platforms where it improves the customer experience and moves business metrics.
 
-## 🛠️ What I Work On
+## Product Work & Case Studies
+
+<p>Click a card to expand the details.</p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📈 ROI-driven product management</h3>
-      Cost-benefit analysis for every AI feature — business impact over technical novelty.
+<details>
+<summary><img src="assets/work/whatsapp-payments.svg" width="100%" alt="WhatsApp Payments — click to view details"/></summary>
+<br>
+
+<!-- WhatsApp Payments: add details below (Problem · What I did · Outcome · Link) -->
+> Details coming soon.
+
+</details>
     </td>
     <td width="50%" valign="top">
-      <h3>💬 Customer feedback intelligence</h3>
-      CSAT, VOC and NPS loops powered by AI for faster insight-to-action cycles.
+<details>
+<summary><img src="assets/work/amazon-choice-overload.svg" width="100%" alt="Solving Amazon Choice Overload — click to view details"/></summary>
+<br>
+
+<!-- Solving Amazon Choice Overload: add details below (Problem · What I did · Outcome · Link) -->
+> Details coming soon.
+
+</details>
     </td>
   </tr>
   <tr>
-    <td valign="top">
-      <h3>📝 Product docs that ship</h3>
-      PRDs, BRDs and one-pagers for fintech/SaaS — specs detailed enough that non-coders can build from them.
+    <td width="50%" valign="top">
+<details>
+<summary><img src="assets/work/meesho-feature-analysis.svg" width="100%" alt="Meesho Product Feature Analysis — click to view details"/></summary>
+<br>
+
+<!-- Meesho Product Feature Analysis: add details below (Problem · What I did · Outcome · Link) -->
+> Details coming soon.
+
+</details>
     </td>
-    <td valign="top">
-      <h3>⚡ No-code / low-code AI builds</h3>
-      Cursor + Claude Code as my IDE — prototyping full-stack products (backend, deployment, analytics) without writing code.
+    <td width="50%" valign="top">
+<details>
+<summary><img src="assets/work/blinkit-product-analysis.svg" width="100%" alt="Blinkit Product Analysis — click to view details"/></summary>
+<br>
+
+<!-- Blinkit Product Analysis: add details below (Problem · What I did · Outcome · Link) -->
+> Details coming soon.
+
+</details>
     </td>
   </tr>
   <tr>
-    <td valign="top">
-      <h3>🔌 MCP-powered workflows</h3>
-      Wiring Gmail, Airtable, GitHub and ClickUp together to automate research, docs and cross-functional work.
+    <td width="50%" valign="top">
+<details>
+<summary><img src="assets/work/loyalty.svg" width="100%" alt="Loyalty — click to view details"/></summary>
+<br>
+
+<!-- Loyalty: add details below (Problem · What I did · Outcome · Link) -->
+> Details coming soon.
+
+</details>
     </td>
-    <td valign="top">
-      <h3>🧪 Model selection & evaluation</h3>
-      Benchmarking open-source (Llama, Gemma) vs proprietary (GPT-4, Claude) for cost-performance trade-offs.
+    <td width="50%" valign="top">
+<details>
+<summary><img src="assets/work/payments.svg" width="100%" alt="Payments — click to view details"/></summary>
+<br>
+
+<!-- Payments: add details below (Problem · What I did · Outcome · Link) -->
+> Details coming soon.
+
+</details>
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top" align="center">
-      <h3>📊 Data-driven product analytics</h3>
-      Mixpanel funnels, retention cohorts and feature-usage metrics to validate assumptions and guide the roadmap.
+    <td width="50%" valign="top">
+<details>
+<summary><img src="assets/work/aws-key-learnings.svg" width="100%" alt="AWS Key Learnings — click to view details"/></summary>
+<br>
+
+<!-- AWS Key Learnings: add details below (Problem · What I did · Outcome · Link) -->
+> Details coming soon.
+
+</details>
+    </td>
+    <td width="50%" valign="top">
+<details>
+<summary><img src="assets/work/technical-product-learnings.svg" width="100%" alt="Technical Product Learnings — click to view details"/></summary>
+<br>
+
+<!-- Technical Product Learnings: add details below (Problem · What I did · Outcome · Link) -->
+> Details coming soon.
+
+</details>
     </td>
   </tr>
 </table>
