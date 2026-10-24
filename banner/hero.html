@@ -38,25 +38,25 @@ function draw(t) {                // t in [0, LOOP)
   x.fillStyle = 'rgba(148,163,184,0.10)';
   for (let gx = 20; gx < W; gx += 28) for (let gy = 20; gy < H; gy += 28) x.fillRect(gx, gy, 1.5, 1.5);
   // left accent bar
-  x.fillStyle = '#6366f1'; x.fillRect(72, 92, 3, 128);
+  x.fillStyle = '#6366f1'; x.fillRect(72, 78, 3, 166);
 
   // ---- text block ----
   x.textBaseline = 'alphabetic';
   x.fillStyle = '#8b949e'; x.font = '500 20px Inter';
-  x.fillText('Hi, I am', 100, 118);
+  x.fillText('Hi, I am', 100, 100);
   x.fillStyle = '#f0f6fc'; x.font = '700 64px "Inter Display", Inter';
-  x.fillText('Kashish Bhatnagar', 98, 186);
-  x.font = '500 22px Inter';
-  const parts = [['AI Product Manager', '#a5b4fc'], ['  ·  ', '#484f58'], ['Enterprise Platforms', '#c9d1d9'], ['  ·  ', '#484f58'], ['Loyalty & Insurance', '#c9d1d9']];
-  let tx = 100;
-  for (const [s, col] of parts) { x.fillStyle = col; x.fillText(s, tx, 222); tx += x.measureText(s).width; }
+  x.fillText('Kashish Bhatnagar', 98, 166);
+  x.fillStyle = '#a5b4fc'; x.font = '600 24px Inter';
+  x.fillText('AI Product Manager', 100, 206);
+  x.fillStyle = '#c9d1d9'; x.font = '400 19px Inter';
+  x.fillText('Enterprise platforms for Consumer Loyalty & Insurance', 100, 236);
 
   // ---- keyword chips, one highlighted at a time ----
   const active = Math.floor(p * KEYWORDS.length) % KEYWORDS.length;
   const local = (p * KEYWORDS.length) % 1;                       // 0..1 within slot
   const glow = Math.sin(Math.min(1, local / 0.25) * Math.PI / 2) * (local > 0.85 ? (1 - local) / 0.15 : 1);
   x.font = '600 15px Inter';
-  let cx = 100, cy = 262, rowH = 40;
+  let cx = 100, cy = 266, rowH = 40;
   KEYWORDS.forEach((k, i) => {
     const w = x.measureText(k).width + 32;
     if (cx + w > 800) { cx = 100; cy += rowH + 10; }
