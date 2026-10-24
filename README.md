@@ -110,22 +110,30 @@ I'm an AI Product Manager at **HashedIn by Deloitte**, building enterprise platf
   </tr>
 </table>
 
-## 🧰 Toolkit
+## Toolkit
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,vscode,github,githubactions,vercel,supabase,postgres,notion,figma&theme=dark" alt="Tools"/>
+  <img src="https://img.shields.io/badge/AI-30363d?style=flat-square" alt="AI"/>&nbsp;
+  <img src="https://img.shields.io/badge/Claude-161b22?style=flat-square&logo=anthropic&logoColor=D97757" alt="Claude"/>
+  <img src="https://img.shields.io/badge/ChatGPT-161b22?style=flat-square&logo=openai&logoColor=ffffff" alt="ChatGPT"/>
+  <img src="https://img.shields.io/badge/Cursor-161b22?style=flat-square&logo=cursor&logoColor=ffffff" alt="Cursor"/>
+  <img src="https://img.shields.io/badge/MCP-161b22?style=flat-square&logo=modelcontextprotocol&logoColor=ffffff" alt="MCP"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
-  <img src="https://img.shields.io/badge/Llama%20%2F%20Gemma-0467DF?style=flat-square&logo=meta&logoColor=white" alt="Llama / Gemma"/>
-  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor"/>
-  <img src="https://img.shields.io/badge/MCP-4f46e5?style=flat-square&logoColor=white" alt="MCP"/>
-  <img src="https://img.shields.io/badge/RAG%20%2F%20CAG-7c3aed?style=flat-square" alt="RAG / CAG"/>
-  <img src="https://img.shields.io/badge/XGBoost%20%2F%20Random%20Forest-10b981?style=flat-square&logo=scikitlearn&logoColor=white" alt="XGBoost / Random Forest"/>
-  <img src="https://img.shields.io/badge/Mixpanel-7856FF?style=flat-square&logo=mixpanel&logoColor=white" alt="Mixpanel"/>
-  <img src="https://img.shields.io/badge/Airtable-18BFFF?style=flat-square&logo=airtable&logoColor=white" alt="Airtable"/>
-  <img src="https://img.shields.io/badge/ClickUp-7B68EE?style=flat-square&logo=clickup&logoColor=white" alt="ClickUp"/>
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/>
+  <img src="https://img.shields.io/badge/Product-30363d?style=flat-square" alt="Product"/>&nbsp;
+  <img src="https://img.shields.io/badge/Jira-161b22?style=flat-square&logo=jira&logoColor=2684FF" alt="Jira"/>
+  <img src="https://img.shields.io/badge/Confluence-161b22?style=flat-square&logo=confluence&logoColor=2684FF" alt="Confluence"/>
+  <img src="https://img.shields.io/badge/Figma-161b22?style=flat-square&logo=figma&logoColor=F24E1E" alt="Figma"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Data-30363d?style=flat-square" alt="Data"/>&nbsp;
+  <img src="https://img.shields.io/badge/Mixpanel-161b22?style=flat-square&logo=mixpanel&logoColor=A086FF" alt="Mixpanel"/>
+  <img src="https://img.shields.io/badge/SQL-161b22?style=flat-square" alt="SQL"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Cloud-30363d?style=flat-square" alt="Cloud"/>&nbsp;
+  <img src="https://img.shields.io/badge/AWS-161b22?style=flat-square" alt="AWS"/>
 </p>
