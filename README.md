@@ -7,13 +7,13 @@
   <img src="https://komarev.com/ghpvc/?username=BhatnagarKashish&label=Profile%20views&color=6366f1&style=flat-square" alt="Profile views"/>
 </p>
 
-## 🧑‍💻 About Me
+## About Me
 
 <p align="center">
-  <img src="assets/terminal.svg" width="100%" alt="Animated terminal intro"/>
+  <img src="assets/about.svg" width="100%" alt="About Kashish Bhatnagar: AI Product Manager at HashedIn by Deloitte, Gurugram. Domains: Consumer Loyalty and Insurance."/>
 </p>
 
-**Data-driven Product Manager** specializing in AI-native product development through LLM orchestration, agentic workflows, and rapid prototyping. I build with RAG/CAG architectures, MCP integrations, no-code agent frameworks, and statistical models (Random Forest, XGBoost) to drive **measurable** product outcomes — translating complex AI capabilities into business value.
+I'm an AI Product Manager at **HashedIn by Deloitte**, building enterprise platforms for **Consumer Loyalty** and **Insurance**. I own products from discovery to launch: framing problems with business stakeholders, writing clear PRDs, and running Agile delivery with design and engineering. My current focus is bringing GenAI into these platforms where it improves the customer experience and moves business metrics.
 
 ## 🛠️ What I Work On
 
