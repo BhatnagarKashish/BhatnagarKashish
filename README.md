@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.gif" width="100%" alt="Hi, I am Kashish Bhatnagar — AI Product Manager · Enterprise Platforms · Loyalty &amp; Insurance. Focus areas: AI Product Strategy, GenAI &amp; Agentic Workflows, Prompt Engineering, Stakeholder Management, Agile Delivery."/>
+  <img src="assets/banner.gif" width="100%" alt="Hi, I am Kashish Bhatnagar — AI Product Manager. Enterprise platforms for Consumer Loyalty &amp; Insurance. Focus areas: AI Product Strategy, GenAI &amp; Agentic Workflows, Prompt Engineering, Stakeholder Management, Agile Delivery."/>
 </p>
 
 <p align="center">
