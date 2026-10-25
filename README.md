@@ -42,6 +42,12 @@ I'm an AI Product Manager at **HashedIn by Deloitte**, building enterprise platf
   </tr>
 </table>
 
+## Certifications
+
+<p align="center">
+  <img src="assets/certifications.svg" width="100%" alt="Certifications: Professional Scrum Product Owner I and II (Scrum.org); SAFe Product Owner / Product Manager (Scaled Agile); Product Management (Product Space); AI Product Manager (Codebasics); AWS Certified Solutions Architect and AWS Certified Cloud Practitioner (Amazon Web Services)"/>
+</p>
+
 ## Toolkit
 
 <p align="center">
