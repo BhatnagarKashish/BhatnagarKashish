@@ -34,11 +34,14 @@ I'm an AI Product Manager at **HashedIn by Deloitte**, building enterprise platf
   </tr>
   <tr>
     <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/loyalty"><img src="assets/work/loyalty.svg?v=3" width="100%" alt="Loyalty — open project"/></a></td>
-    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/payments"><img src="assets/work/payments.svg?v=3" width="100%" alt="Payments — open project"/></a></td>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/insurance"><img src="assets/work/insurance.svg?v=4" width="100%" alt="Insurance — open project"/></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/aws-key-learnings"><img src="assets/work/aws-key-learnings.svg?v=3" width="100%" alt="AWS Key Learnings — open project"/></a></td>
-    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/technical-product-learnings"><img src="assets/work/technical-product-learnings.svg?v=3" width="100%" alt="Technical Product Learnings — open project"/></a></td>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/payments"><img src="assets/work/payments.svg?v=4" width="100%" alt="Payments — open project"/></a></td>
+    <td width="50%"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/aws-key-learnings"><img src="assets/work/aws-key-learnings.svg?v=4" width="100%" alt="AWS Key Learnings — open project"/></a></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><a href="https://github.com/BhatnagarKashish/BhatnagarKashish/tree/main/projects/technical-product-learnings"><img src="assets/work/technical-product-learnings.svg?v=4" width="50%" alt="Technical Product Learnings — open project"/></a></td>
   </tr>
 </table>
 
