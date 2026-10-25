@@ -7,7 +7,7 @@
 <rect x="0.5" y="0.5" width="439" height="149" rx="12" fill="none" stroke="#30363d"/>
 <rect x="22" y="22" width="87" height="22" rx="11" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.45"/>
 <text x="65.5" y="37" text-anchor="middle" class="f" font-size="10.5" font-weight="700" letter-spacing="1" fill="#fbbf24">LEARNINGS</text>
-<text x="418" y="38" text-anchor="end" class="num">10</text>
+<text x="418" y="38" text-anchor="end" class="num">11</text>
 <text x="22" y="82" class="f" font-size="21" font-weight="700" fill="#f0f6fc">Technical Product Learnings</text>
 <text x="22" y="106" class="f" font-size="14" fill="#8b949e">Engineering concepts behind good PM calls</text>
 <text x="22" y="132" class="f" font-size="12.5" font-weight="600" fill="#fbbf24">Open project</text>
